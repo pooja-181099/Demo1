@@ -10,7 +10,13 @@ public class WelcomeController {
 	@GetMapping(value="/msg")
 	public String msg()
 	{
-		return "Welcome to the application......";
+		return "Welcome to the spring boot application......";
+	}
+	
+	@GetMapping(value="/hello")
+	public String hello()
+	{
+		return "Hello......";
 	}
 	
 }
